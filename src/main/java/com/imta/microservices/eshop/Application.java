@@ -1,4 +1,5 @@
-package main.java;
+package com.imta.microservices.eshop;
+
 import java.util.Arrays;
 
 import org.springframework.boot.CommandLineRunner;

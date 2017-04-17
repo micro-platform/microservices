@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: hello
+  cloud:
+    config:
+      enabled: false
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        preferIpAddress: true
+        instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+        healthCheckPath: /health
+        healthCheckInterval: 15s
+      config:
+        enabled: true
+        format: yaml
+        fail-fast: false
+        prefix: config
+        defaultContext: hello
+        data-key: data
