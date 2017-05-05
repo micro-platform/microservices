@@ -1,4 +1,4 @@
-package main.java.com.imta.microservices.eshop.controller;
+package com.imta.microservices.eshop.controller;
 
 import java.util.HashMap;
 import java.util.Map;

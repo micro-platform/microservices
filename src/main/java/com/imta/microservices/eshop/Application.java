@@ -1,4 +1,4 @@
-package main.java.com.imta.microservices.eshop;
+package com.imta.microservices.eshop;
 
 import java.util.Arrays;
 
